@@ -1,0 +1,28 @@
+body {
+  background-color: Grayish-blue hsl(218, 14%, 42%);
+}
+.qr-code {
+  box-sizing: border-box;
+  width: 40%;
+  max-width: 400px;
+  height: 300px;
+  margin: 0 auto 0 auto;
+  /*padding: (30px, 30px, 30px, 15px)*/
+  border-radius: 10%;
+}
+.qr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+}
+h1,
+p {
+  font-style: italic;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
